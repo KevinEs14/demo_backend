@@ -1,0 +1,10 @@
+POST http://localhost:8080/v2/student
+Content-Type: application/json
+
+{
+  "fullName" :  "Kevin Escobar y Josemar Castro"
+}
+
+
+
+###

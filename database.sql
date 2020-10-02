@@ -3,6 +3,11 @@
 
 -- tables
 -- Table: address
+create table student (
+    student_id int auto_increment primary key not null,
+    full_name varchar(100) not null,
+    CONSTRAINT student_pk PRIMARY KEY (student_id)
+);
 CREATE TABLE address (
     address_id int NOT NULL AUTO_INCREMENT,
     street varchar(100) NOT NULL,
